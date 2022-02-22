@@ -12,7 +12,7 @@ module.exports = {
   },
   entry: ["@babel/polyfill", "./index.tsx"],
   output: {
-    path: path.join(basePath, "dist"),
+    path: path.join(basePath, "build"),
     filename: "bundle.js",
   },
   devtool: "source-map",
